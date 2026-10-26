@@ -12,9 +12,10 @@ Once GitHub Pages is enabled, the site will be available at:
 
 ```
 earthsolar/
-├── index.html       # Home page (three content sections)
+├── index.html           # Home page (intro, project, papers, about)
+├── EarthSolar_Draft.pdf # Solar panel energy efficiency paper
 ├── css/
-│   └── style.css    # Styles and layout
+│   └── style.css        # Styles and layout
 └── README.md
 ```
 
@@ -40,10 +41,11 @@ Alternatively, open `index.html` directly in a browser.
 
 ## Editing content
 
-All page text lives in `index.html`. Update the three sections there:
+All page text lives in `index.html`. Update the sections there:
 
 - **Introduction to Solar Panels** — general background on solar energy
 - **My Project** — details about the smart solar panel project
-- **Description** — broader project context and links
+- **Papers** — links to papers (add another `paper-card` link to list more)
+- **About** — broader project context and links
 
 Styles can be adjusted in `css/style.css`.
